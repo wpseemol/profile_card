@@ -4,6 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet" />
         <link
             rel="shortcut icon"
             href="./assets/image/wpseemol.jpg"
@@ -13,23 +18,28 @@
     <body>
         <header></header>
         <main class="container flex items-center justify-center">
-            <section class="card-container">
+            <section class="card-container relative">
+                <div class="bage">
+                    <p>pro</p>
+                </div>
                 <figure class="profile-picture mx-auto">
                     <img
                         src="./assets/image/wpseemol.jpg"
                         alt="Seemol Chakroborit" />
                 </figure>
 
-                <h2 class="mt-common">Seemol Chakroborit</h2>
-                <h3>Web Developer</h3>
+                <h2 class="mt-common name">Seemol Chakroborit</h2>
+                <h3 class="profeson">Web Developer</h3>
                 <p class="bio mt-common">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laboriosam minima eveniet neque culpa ullam iure aperiam,
-                    iste ea quos fuga accusantium consectetur id itaque quo
-                    suscipit modi assumenda incidunt libero.
+                    Hi, I am a web programmer working three years of experience.
+                    Right now I like to work with PHP. I have completed lots of
+                    problems and also many kinds of projects. I can work on
+                    responsive websites with complex designs and custom
+                    requirements. need any support can contact me, always I will
+                    try to do my best.
                 </p>
 
-                <ul class="flex ul-common mx-auto mt-common">
+                <ul class="flex ul-common mx-auto mt-common capitalize">
                     <li>
                         <p>project</p>
                         <span>20</span>
@@ -44,9 +54,11 @@
                     </li>
                 </ul>
 
-                <div class="flex justify-center mt-common">
-                    <button>follow</button>
-                    <button>follow</button>
+                <div class="flex justify-center mt-common btn-container">
+                    <button class="capitalize btn btn-bt-transprent">
+                        follow
+                    </button>
+                    <button class="capitalize btn btn-bg-full">hire me</button>
                 </div>
             </section>
         </main>

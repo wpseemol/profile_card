@@ -18,12 +18,15 @@ p {
 }
 
 .card-container {
-    padding: 1rem;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.7rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .btn-container {
+    gap: 1.3rem;
 }
 
 .profile-picture {
@@ -40,9 +43,75 @@ p {
 
 .ul-common {
     list-style: none;
-    text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    color: #656565;
+    font-weight: 600;
     padding: 0;
+}
+
+.ul-common p {
+    margin-bottom: 3px;
+}
+
+.ul-common span {
+    font-weight: bolder;
+    color: #565656;
+    font-size: 20px;
+}
+
+.name {
+    color: #151515;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.profeson {
+    font-size: x-large;
+    margin-top: 8px;
+    color: #565656;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: larger;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+}
+
+.btn-bg-full {
+    background-color: #111111;
+    color: white;
+    border: none;
+}
+
+.btn-bt-transprent {
+    border: 1xp solid #111111;
+    color: #111111;
+}
+
+.bio {
+    width: 26rem;
+    padding: 0 1rem;
+    color: #6a6a6a;
+    line-height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bage {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #888888;
+    color: #fff;
+    padding: 6px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    font-family: 'Kanit', sans-serif;
 }
 
 /* utilet class for project */
@@ -59,15 +128,18 @@ p {
     align-items: center;
 }
 
-.bio {
-    width: 22rem;
-    padding: 0 1rem;
-}
-
 .mx-auto {
     margin: 0 auto;
 }
 
 .mt-common {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.relative {
+    position: relative;
 }
