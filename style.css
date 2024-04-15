@@ -83,11 +83,28 @@ p {
     background-color: #111111;
     color: white;
     border: none;
+    transition: all 0.5s;
+}
+
+.btn-bg-full:hover {
+    background-color: #333333;
+    scale: 105%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .btn-bt-transprent {
     border: 1xp solid #111111;
     color: #111111;
+    transition: all 0.5s;
+}
+
+.btn-bt-transprent:hover {
+    border: 1px solid #333333;
+    color: #333333;
+    scale: 105%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .bio {
@@ -101,8 +118,8 @@ p {
 
 .bage {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
     background-color: #888888;
     color: #fff;
     padding: 6px;
